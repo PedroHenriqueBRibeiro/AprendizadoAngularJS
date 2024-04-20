@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px; 
+  height: 800px; 
+  margin: 1px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.noticia {
+  width: 500px; 
+  height: 300px; 
+  background-color: #3498db;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.noticia2 {
+  position: absolute;
+  top: 60%;
+  width: 1184px;
+  height: 200px;
+  background-color: #3498db;
+  margin: 8px;
+  border-radius: 10px;
+  border: 1px solid black;
+}

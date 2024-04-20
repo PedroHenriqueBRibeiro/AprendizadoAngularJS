@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  font-family: 'Segoe UI';
+}
+
+.body {
+  gap: 20px;
+}
+
+.header {
+  background: linear-gradient(yellow, black);
+  width: auto;
+}
+
+.foto {
+  width: 150px;
+  margin-top: 100px;
+}
+
+.foto img {
+  max-width: 100%;
+  border-radius: 100%;
+  border: 5px solid black;
+}
+
+.menu-lista {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  
+}
+
+.menu-lista a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 2px solid yellow;
+}
+
+.header {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 60px;
+}
+
+.section1 {
+  color: white;
+  height: 600px;
+  background: black;
+  padding-top: 150px;
+  background: linear-gradient(black, black, black, yellow);
+}
+
+.section2 {
+  color: white;
+  padding-top: 400px;
+  height: 600px;
+  background: linear-gradient(yellow, black);
+}
+
+.section3 {
+  color: white;
+  height: 600px;
+  background: linear-gradient(black, black, white);
+}
+
+.section4 {
+  padding-left: 100px;
+  height: 300px;
+  background: white;
+}
+
+.titulo {
+  text-align: center;
+  padding-bottom: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+  padding-top: 50px;
+}
+
+.menu-lista a:hover {
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: 3px solid black;
+  transition: 0.2s;
+}
+
+.contato {
+  margin: 0px;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 4000;
+}
+
+.conteiner-icones {
+  display: flex;
+  gap: 10px;
+}
+
+.icone {
+  width: 50px;
+  background: yellow;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.icone:hover {
+  background: black;
+}
+
+.subtitulo {
+  margin: 200px;
+}
+
+.letras {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+span {
+  color: yellow;
+}
+
+.container-projeto {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projeto {
+  padding-top: 150px;;
+  height: 200px;
+}

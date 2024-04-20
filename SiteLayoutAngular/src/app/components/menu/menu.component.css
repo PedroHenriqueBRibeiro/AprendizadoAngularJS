@@ -1,0 +1,45 @@
+.menuConfiguracao ul{
+  padding-top: 15px;
+  text-align: right;
+}
+.menuConfiguracao ul li {
+  display: inline;
+  text-align: right;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 14px;
+  padding-bottom: 8px;
+}
+
+#menu{
+  border: 0px solid black;
+  width: 1200px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.botao a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  transition: all ease 1s;
+}
+
+.botao {
+  border: 1px solid ;
+  border-radius: 15px;
+  margin: 5px;
+  background-image: linear-gradient(white, antiquewhite);
+}
+
+.menuConfiguracao ul li:hover{
+  background-image: linear-gradient(antiquewhite, white);
+  border: solid 3px black;
+
+}
+
+
+
